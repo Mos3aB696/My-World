@@ -1,4 +1,18 @@
 /* Start Variables */
+::-webkit-scrollbar {
+  width: 15px;
+}
+::-webkit-scrollbar-track {
+  background-color: #eee;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #1787e080;
+  border-radius: 20px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #1787e0;
+}
+
 :root {
   --main-color: #2196f3;
   --main-color-alt: #1787e0;
