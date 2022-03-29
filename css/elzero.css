@@ -1182,7 +1182,7 @@ a {
 @media (max-width: 767px) {
   .events .subscribe form {
     flex-direction: column;
-    width: 400px;
+    width: 100%;
     padding: 20px;
   }
 }
