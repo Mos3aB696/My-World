@@ -18,6 +18,8 @@
       href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
+    <!-- Logo -->
+    <link rel="shortcut icon" href="images/logo.png" />
   </head>
   <body>
     <!-- Start Header -->
@@ -601,7 +603,6 @@
     <!-- End Services -->
     <!-- Start Skills -->
     <div class="our-skills" id="our-skills">
-      
       <h2 class="main-title">Our Skills</h2>
       <div class="container">
         <img src="images/skills.png" alt="" />
@@ -609,25 +610,25 @@
           <div class="skill">
             <h3>HTML <span>80%</span></h3>
             <div class="the-prog">
-              <span style="width: 80%"></span>
+              <span style="width: 0" data-width="80%"></span>
             </div>
           </div>
           <div class="skill">
             <h3>CSS <span>85%</span></h3>
             <div class="the-prog">
-              <span style="width: 85%"></span>
+              <span style="width: 0" data-width="85%"></span>
             </div>
           </div>
           <div class="skill">
-            <h3>JavaScript <span>70%</span></h3>
+            <h3>JavaScript <span>60%</span></h3>
             <div class="the-prog">
-              <span style="width: 70%"></span>
+              <span style="width: 0" data-width="60%"></span>
             </div>
           </div>
           <div class="skill">
-            <h3>Python <span>80%</span></h3>
+            <h3>Python <span>50%</span></h3>
             <div class="the-prog">
-              <span style="width: 80%"></span>
+              <span style="width: 0" data-width="50%"></span>
             </div>
           </div>
         </div>
@@ -680,26 +681,25 @@
     <!-- End Works -->
     <!-- Start Events -->
     <div class="events" id="events">
-      
       <h2 class="main-title">Latest Events</h2>
       <div class="container">
         <img src="images/events.png" alt="" />
         <div class="info">
           <div class="time">
             <div class="unit">
-              <span>15</span>
+              <span class="eventDays">0</span>
               <span>Days</span>
             </div>
             <div class="unit">
-              <span>08</span>
+              <span class="eventHours">0</span>
               <span>Hours</span>
             </div>
             <div class="unit">
-              <span>45</span>
+              <span class="eventMinutes">0</span>
               <span>Minutes</span>
             </div>
             <div class="unit">
-              <span>55</span>
+              <span class="eventSeconds">0</span>
               <span>Seconds</span>
             </div>
           </div>
@@ -812,19 +812,23 @@
       <div class="container">
         <div class="box">
           <i class="far fa-user fa-2x fa-fw"></i>
-          <div class="info">150 <span>Clients</span></div>
+          <div class="statsInfo" data-goal="150">0</div>
+          <span>Clients</span>
         </div>
         <div class="box">
           <i class="fas fa-code fa-2x fa-fw"></i>
-          <div class="info">135 <span>Projects</span></div>
+          <div class="statsInfo" data-goal="135">0</div>
+          <span>Projects</span>
         </div>
         <div class="box">
           <i class="fas fa-globe-asia fa-2x fa-fw"></i>
-          <div class="info">50 <span>Countries</span></div>
+          <div class="statsInfo" data-goal="50">0</div>
+          <span>Countries</span>
         </div>
         <div class="box">
           <i class="far fa-money-bill-alt fa-2x fa-fw"></i>
-          <div class="info">500K <span>Money</span></div>
+          <div class="statsInfo" data-goal="500">0</div>
+          <span>Money</span>
         </div>
       </div>
     </div>
@@ -927,16 +931,18 @@
           </div>
         </div>
         <div class="box footer-gallery">
-          <img src="images/gallery-01.png" alt="">
-          <img src="images/gallery-02.png" alt="">
-          <img src="images/gallery-03.jpg" alt="">
-          <img src="images/gallery-04.png" alt="">
-          <img src="images/gallery-05.jpg" alt="">
-          <img src="images/gallery-06.png" alt="">
+          <img src="images/gallery-01.png" alt="" />
+          <img src="images/gallery-02.png" alt="" />
+          <img src="images/gallery-03.jpg" alt="" />
+          <img src="images/gallery-04.png" alt="" />
+          <img src="images/gallery-05.jpg" alt="" />
+          <img src="images/gallery-06.png" alt="" />
         </div>
       </div>
-      <p class="copyright">Made With &lt;3 By Elzero</p>
+      <p class="copyright">Made With ❤️ By <span>Mos3aB</span></p>
     </div>
     <!-- End Footer -->
+    <!-- Js File -->
+    <script src="index.js"></script>
   </body>
 </html>

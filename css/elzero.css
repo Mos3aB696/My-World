@@ -34,6 +34,7 @@
 }
 html {
   scroll-behavior: smooth;
+  color-scheme: light;
 }
 body {
   font-family: "Cairo", sans-serif;
@@ -417,6 +418,8 @@ a {
   z-index: 5;
   border-radius: 50%;
   opacity: 0.5;
+  display: none;
+  transition: var(--main-transition) linear;
 }
 .landing a:hover {
   opacity: 1;
@@ -1007,6 +1010,7 @@ a {
   top: 0;
   height: 100%;
   background-color: var(--main-color);
+  transition: 0.3s linear;
 }
 /* End Skills */
 /* Start Works */
@@ -1506,12 +1510,12 @@ a {
 .stats .container .box:hover::after {
   height: 100%;
 }
-.stats .container .box .info {
+.stats .container .box .statsInfo {
   font-size: 40px;
   font-weight: bold;
   margin-top: 15px;
 }
-.stats .container .box .info span {
+.stats .container .box span {
   font-size: 20px;
   display: block;
   color: var(--main-color-alt);
@@ -1759,6 +1763,10 @@ a {
   color: white;
   margin: 50px 0 0;
   border-top: 1px solid #444;
+}
+.footer .copyright span {
+  font-weight: bold;
+  color: var(--main-color);
 }
 /* End Footer */
 /* Start Animation */
