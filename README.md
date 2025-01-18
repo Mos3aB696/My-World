@@ -1,4 +1,4 @@
-# My-World 🌍
+# My World 🌍
 
 Welcome to **My-World**, an educational project created to test and enhance my knowledge of **HTML**, **CSS**, and **JavaScript**. This project showcases a combination of responsive design principles, interactive features, and clean code practices.
 
@@ -92,7 +92,3 @@ Contributions are welcome! Feel free to fork the repository and submit a pull re
 ---
 
 ⭐ If you like this project, don’t forget to give it a star on GitHub! 😊
-
---- 
-
-Would you like me to adjust or add anything?
