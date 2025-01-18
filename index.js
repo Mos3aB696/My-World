@@ -57,7 +57,8 @@ function startCount(el) {
 
 /** Start Event */
 // Target Date
-let eventDate = new Date("Dec 31, 2024 23:59:59");
+const curYear = new Date().getFullYear();
+let eventDate = new Date(`Dec 31, ${curYear} 23:59:59`);
 
 let countDownDate = setInterval(() => {
   // Date Now
