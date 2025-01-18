@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# My_Third_Project
-My  Third Project By Html And Css
-=======
 # My World 🌍
 
 Welcome to **My-World**, an educational project created to test and enhance my knowledge of **HTML**, **CSS**, and **JavaScript**. This project showcases a combination of responsive design principles, interactive features, and clean code practices.
@@ -96,4 +92,5 @@ Contributions are welcome! Feel free to fork the repository and submit a pull re
 ---
 
 ⭐ If you like this project, don’t forget to give it a star on GitHub! 😊
->>>>>>> bbd4287422e21b1434d7a427639d5de8046057a3
+
+
