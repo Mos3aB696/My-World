@@ -1764,10 +1764,14 @@ a {
   margin: 50px 0 0;
   border-top: 1px solid #444;
 }
-.footer .copyright span {
-  font-weight: bold;
+.footer .copyright a {
   color: var(--main-color);
+  font-weight: bold;
+  text-decoration: none;
+  animation: fadeIn 1s;
+  -webkit-animation: fadeIn 2s infinite ease-in-out;
 }
+
 /* End Footer */
 /* Start Animation */
 @keyframes up-and-down {
@@ -1864,4 +1868,26 @@ a {
     background-image: url(../images/discount-background2.jpg);
   }
 }
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0.2;
+  }
+  40% {
+    opacity: 0.4;
+  }
+  60% {
+    opacity: 0.6;
+  }
+  80% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 /* End Animation */
